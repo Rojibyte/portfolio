@@ -61,10 +61,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello&apos; I&apos;m Rogelio.</span> I&apos;m a{" "}
+        <span className="font-bold">Hello! I&apos;m Rogelio Santiago or Ross.</span> I&apos;m a{" "}
         <span className="font-bold">front-end developer</span> with{" "}
-        <span className="font-bold">6 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">7 years</span> of experience. I enjoy
+        building <span className="italic">websites & apps</span>. My current focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -90,7 +90,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition-all cursor-pointer border border-black/10"
-          href="/RogelioCV.pdf"
+          href="/CV-Rogelio-Deguito-2025.pdf"
           download
         >
           Download CV
