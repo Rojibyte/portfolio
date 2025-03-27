@@ -1,7 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { CgWorkAlt, CgFolder } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuBrush, LuGraduationCap } from "react-icons/lu";
+import { LuBrush } from "react-icons/lu";
+import { MdOutlineEmail } from "react-icons/md";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -38,7 +39,7 @@ export const experiencesData = [
     title: "Junior Web Designer",
     location: "Lipa City, Batangas",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After graduating I started as a Junior Web Designer learning UI/UX and website building using Duda.",
     icon: React.createElement(LuBrush),
     date: "Feb 2018 - Nov 2018",
   },
@@ -46,23 +47,31 @@ export const experiencesData = [
     title: "Junior Web Developer",
     location: "Lipa City, Batangas",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "After a few months, I have been promoted to a Junior Web Developer focusing on JavaScript and jQuery as well on developing Custom Widgets in Duda Platform.",
     icon: React.createElement(CgWorkAlt),
     date: "Nov 2018 - March 2021",
+  },
+  {
+    title: "Web Development Specialist 1",
+    location: "Pasig City, NCR",
+    description:
+      "I worked as an Email Front-end Developer using Eloqua, learning more about marketing automation, designing and developing emails.",
+    icon: React.createElement(MdOutlineEmail),
+    date: "March 2021 - April 2023",
   },
   {
     title: "Web Development Specialist 2",
     location: "Pasig City, NCR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(CgWorkAlt),
-    date: "March 2021 - Sept 2024",
+      "I got promoted to Specialist 2, I provide recommendations and guidance to clients and managed client email campaigns by scheduling, sending, and tracking performance metrics.",
+    icon: React.createElement(MdOutlineEmail),
+    date: "April 2023 - Sept 2024",
   },
   {
     title: "Email Front-end Developer",
     location: "Cebu City, Cebu",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a React Developer specializing in designing and developing emails that are fully compatible with Braze using an in-house built React App.",
     icon: React.createElement(FaReact),
     date: "Sept 2024 - present",
   },
@@ -70,24 +79,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "eCommerce App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked on this eCommerce app to learn more about.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Admin Dashboard",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Golf Club Website",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Webflow", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
