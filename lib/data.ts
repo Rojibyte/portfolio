@@ -84,7 +84,7 @@ export const projectsData = [
       "I worked on this eCommerce app to learn more about.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     altText:"ecommerce-app",
-    link:"",
+    link:"#",
     imageUrl: corpcommentImg,
   },
   {
@@ -93,7 +93,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     altText:"admin-dashboard-app",
-    link:"",
+    link:"#",
     imageUrl: rmtdevImg,
   },
   {
@@ -102,7 +102,7 @@ export const projectsData = [
       "A simple website I made in webflow.",
     tags: ["Webflow", "Web Design", "Mobile Responsive"],
     altText:"champion-club-website-thumbnail",
-    link:"",
+    link:"https://golf-club-website-5987cd.webflow.io/",
     imageUrl: wordanalyticsImg,
   },
 ] as const;

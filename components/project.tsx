@@ -47,7 +47,7 @@ export default function Project({
           </ul>
         </div>
 
-        <a href="https://golf-club-website-5987cd.webflow.io/"
+        <a href={link}
           target="_blank"
           rel="noopener noreferrer"
         >
