@@ -81,10 +81,17 @@ export const projectsData = [
   {
     title: "eCommerce App",
     description:
-      "I worked on this eCommerce app to learn more about.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    altText:"ecommerce-app",
-    link:"#",
+      "A full-stack e-commerce application I built using Next.js 15 with the latest App Router.",
+    tags: [
+      "Next.js 15",
+      "TypeScript",
+      "MongoDB",
+      "Tailwind",
+      "DaisyUI",
+      "Prisma",
+    ],
+    altText: "ecommerce-app",
+    link: "https://ecommerce-app-rojibytes-projects.vercel.app/",
     imageUrl: corpcommentImg,
   },
   {
@@ -92,17 +99,16 @@ export const projectsData = [
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    altText:"admin-dashboard-app",
-    link:"#",
+    altText: "admin-dashboard-app",
+    link: "#",
     imageUrl: rmtdevImg,
   },
   {
     title: "Golf Club Website",
-    description:
-      "A simple website I made in webflow.",
+    description: "A simple website I made in webflow.",
     tags: ["Webflow", "Web Design", "Mobile Responsive"],
-    altText:"champion-club-website-thumbnail",
-    link:"https://golf-club-website-5987cd.webflow.io/",
+    altText: "champion-club-website-thumbnail",
+    link: "https://golf-club-website-5987cd.webflow.io/",
     imageUrl: wordanalyticsImg,
   },
 ] as const;
