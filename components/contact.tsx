@@ -48,6 +48,9 @@ export default function Contact() {
           }
 
           toast.success("Email sent successfully!");
+
+          const form = document.querySelector("form");
+          form?.reset();
         }}
       >
         <input
