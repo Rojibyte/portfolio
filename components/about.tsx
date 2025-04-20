@@ -18,25 +18,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 ">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Information Systems</span>, I decided to pursue my
-        passion for Web Development and Programming. I started from buying Online Courses about {" "}
-        <span className="font-medium">web designing and full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js, and Node</span>. I am
-        also familiar with TypeScript and Figma. I am always looking to learn
-        new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        After earning my degree in{" "}
+        <span className="font-medium">Information Systems</span>, I dove into my
+        passion for web development and programming. I began by exploring online
+        courses in web design and full-stack development, and quickly found that{" "}
+        <span className="font-medium">solving problems</span> through code is
+        what truly excites me. There's nothing quite like the satisfaction of
+        cracking a tough bug or building something from scratch. My core stack
+        includes{" "}
+        <span className="font-medium">React, Next.js, and Node.js</span>. I’m
+        also comfortable working with{" "}
+        <span className="font-medium">TypeScript and Figma</span>, and I’m
+        always eager to explore and learn new technologies. Right now, I'm
+        actively seeking a <span className="font-medium">full-time role</span>{" "}
+        as a <span className="italic">software developer</span> where I can
+        continue growing and contribute to meaningful projects.
       </p>
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my pets. I have 2 cats and 2 dogs and I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning how to{" "}
-        <span className="font-medium">play golf and getting in to sports more</span>.
+        <span className="italic">Outside of coding</span>, I enjoy playing video
+        games, watching movies, and spending time with my two cats. I also love{" "}
+        <span className="font-medium">picking up new hobbies</span>—recently,
+        I’ve started{" "}
+        <span className="font-medium">
+          learning golf and getting more into sports.
+        </span>
+        .
       </p>
     </motion.section>
   );
