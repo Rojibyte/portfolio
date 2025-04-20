@@ -42,7 +42,6 @@ export default function About() {
         <span className="font-medium">
           learning golf and getting more into sports.
         </span>
-        .
       </p>
     </motion.section>
   );
